@@ -1,50 +1,62 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+# Created by https://www.gitignore.io/api/eclipse
 
-# compiled output
-/dist
-/tmp
-/out-tsc
-# Only exists if Bazel was run
-/bazel-out
+### Eclipse ###
 
-# dependencies
-/node_modules
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
 
-# profiling files
-chrome-profiler-events.json
-speed-measure-plugin.json
+# External tool builders
+.externalToolBuilders/
 
-# IDEs and editors
-/.idea
-.c9/
+# Locally stored "Eclipse launch configurations"
 *.launch
-*.sublime-workspace
 
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
 
-# misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
+# CDT-specific (C/C++ Development Tooling)
+.cproject
 
-# System Files
-.DS_Store
-Thumbs.db
+# Java annotation processor (APT)
+.factorypath
 
-# Server
-/.gradle
-/build/
-/!gradle/wrapper/gradle-wrapper.jar
-/out/
-/dist/
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+### Eclipse Patch ###
+# Eclipse Core      
+.project
+
+# JDT-specific (Eclipse Java Development Tools)     
+.classpath
+
+# End of https://www.gitignore.io/api/eclipse
